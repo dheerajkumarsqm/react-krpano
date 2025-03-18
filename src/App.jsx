@@ -12,13 +12,13 @@ function App() {
   return (
     <>
       <div>
-        <div onClick={() => setView("sphere")} target="_blank">
-          Sphere
-          {/* <img src={viteLogo} className="logo" alt="Vite logo" /> */}
+        <div>  
+          <img src={viteLogo} className="logo" alt="Vite logo" />
+           <img src={reactLogo} className="logo react" alt="React logo" />
         </div>
-        <div onClick={() => setView("cube")} target="_blank">
-          Cube
-          {/* <img src={reactLogo} className="logo react" alt="React logo" /> */}
+        <div>
+          <a onClick={() => setView("sphere")}> Sphere </a>
+          <a onClick={() => setView("cube")}> Cube </a>
         </div>
       </div>
       <div>
